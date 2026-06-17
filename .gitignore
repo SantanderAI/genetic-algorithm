@@ -1,0 +1,27 @@
+# Editor / IDE
+.idea/
+.vscode/
+
+# Virtual environments
+.venv/
+venv/
+
+# Python caches and tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Documentation build folder
+docs/build
+docs/make.bat
+
+# Internal intake artifacts (not for publication)
+*.local

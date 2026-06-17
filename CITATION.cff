@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "genetic-algorithm: a pluggable-fitness evolutionary engine"
+abstract: >-
+  A small, dependency-free Python genetic-algorithm engine whose fitness
+  criterion is a swappable plugin. Separating the evolutionary engine from the
+  judgment of "better" makes the same loop reusable as the search core of an
+  autoresearcher (generate -> evaluate -> select -> repeat), including
+  LLM-as-a-judge criteria.
+type: software
+authors:
+  - name: "Santander AI Lab"
+repository-code: "https://github.com/SantanderAI/genetic-algorithm"
+url: "https://github.com/SantanderAI/genetic-algorithm"
+license: Apache-2.0
+version: 0.1.0
+date-released: 2026-06-17
+keywords:
+  - genetic-algorithm
+  - evolutionary-computation
+  - optimization
+  - ai
+  - autoresearch

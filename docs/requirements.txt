@@ -1,0 +1,5 @@
+sphinx
+sphinxemoji
+sphinx-copybutton
+sphinx_rtd_theme
+jupyter-sphinx
