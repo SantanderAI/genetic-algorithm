@@ -176,7 +176,7 @@ and [Code of Conduct](CODE_OF_CONDUCT.md) before getting started.
 
 Please report security vulnerabilities responsibly. See our [Security Policy](.github/SECURITY.md)
 for how to report (do **not** open a public issue for vulnerabilities). Contact:
-**security-opensource@gruposantander.com** or use GitHub Security Advisories.
+**opensource@gruposantander.com** or use GitHub Security Advisories.
 
 ## License
 
