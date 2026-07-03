@@ -55,6 +55,13 @@ def test_mutation_methods_preserve_length(method):
     assert len(out) == 6
 
 
+def test_probability_mutation_allows_zero_probability():
+    random.seed(1)
+    c = Chromosome(3, [(0, 0)] * 3, data=[1.0, 2.0, 3.0])
+    out = c.mutate(method="probability_mutation", mutation_prob=0)
+    assert out == [1.0, 2.0, 3.0]
+
+
 def test_permutation_mutations_preserve_multiset():
     c = Chromosome(5, [(0, 100)] * 5, data=[1.0, 2.0, 3.0, 4.0, 5.0])
     random.seed(2)
