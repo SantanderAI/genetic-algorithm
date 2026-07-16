@@ -173,7 +173,7 @@ class Chromosome:
 
     def mutate(self, method="probability_mutation", mutation_prob=None):
         if method == "probability_mutation":
-            mutation_prob = mutation_prob if mutation_prob else 1 / len(self.data)
+            mutation_prob = mutation_prob if mutation_prob is not None else 1 / len(self.data)
             return self.__probability_mutation(mutation_prob)
         elif method == "twors":
             return self.__twors_mutate()
